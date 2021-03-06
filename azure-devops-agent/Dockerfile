@@ -7,7 +7,7 @@ RUN echo "APT::Get::Assume-Yes \"true\";" > /etc/apt/apt.conf.d/90assumeyes
 
 RUN apt-get update \
 && apt-get install -y --no-install-recommends \
-        ca-certificates zlib1g-dev libffi-dev \
+        ca-certificates zlib1g-dev libffi-dev libbz2-dev \
         curl wget libreadline-dev build-essential python3.6 \
         jq tar \
         git \

@@ -87,10 +87,10 @@ print_header "3. Configuring Azure Pipelines agent..."
 print_header "4. installing environment dependencies..."
 mkdir -p /azp/agent/$AZP_WORK/_tool/Python
 for PYTHON_VERSION in  "3.7.10" "3.8.8" "3.9.2"; do
-  mkdir -p /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSIONS/x64
-  touch /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSIONS/x64.complete
-  ln -s /usr/share/python/$PYTHON_VERSION/bin/python3 /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSIONS/x64/python3
-  ln -s /usr/share/python/$PYTHON_VERSION/bin/pip3 /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSIONS/x64/pip3
+  mkdir -p /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSION/x64
+  touch /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSION/x64.complete
+  ln -s /usr/share/python/$PYTHON_VERSION/bin/python3 /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSION/x64/python3
+  ln -s /usr/share/python/$PYTHON_VERSION/bin/pip3 /azp/agent/$AZP_WORK/_tool/Python/$PYTHON_VERSION/x64/pip3
 done
 
 print_header "5. Running Azure Pipelines agent..."

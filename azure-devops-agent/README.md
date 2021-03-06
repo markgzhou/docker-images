@@ -13,6 +13,6 @@ docker run -d --name azure-devops-agent \
  --restart always \
  -e AZP_URL=<Azure DevOps instance> \
  -e AZP_TOKEN=<PAT token> \
- -e AZP_AGENT_NAME=mydockeragent 
+ -e AZP_AGENT_NAME=mydockeragent markgzhou/azure-devops-agent
 ```
 Please refer to [Microsoft Azure Devops documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops#start-the-image-1) for more detailed information.

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: toolbox
+spec:
+  containers:
+    - name: toolbox
+      image: markgzhou/azure-tool-box:latest
+      imagePullPolicy: "Always"
+      command: [ "/bin/bash", "-c", "--" ]
+      args: [ "while true; do sleep 180; done;" ]

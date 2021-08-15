@@ -1,6 +1,6 @@
 
 # Docker Image for Azure Devops Agent - Linux
-[![CI](https://github.com/markgzhou/docker-images/actions/workflows/ci.yml/badge.svg)](https://github.com/markgzhou/docker-images/actions/workflows/ci.yml)
+[![CI](https://github.com/markgzhou/docker-images/actions/workflows/ci-devops-agent.yml/badge.svg)](https://github.com/markgzhou/docker-images/actions/workflows/ci-devops-agent.yml)
 [![CI](https://img.shields.io/github/issues/markgzhou/docker-images)](https://github.com/markgzhou/docker-images/issues)
 ## About
 This docker-agent is built based on the [instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops#linux) provided by Microsoft Azure.

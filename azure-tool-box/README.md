@@ -1,4 +1,6 @@
 # Azure Toolbox Docker Image - Linux
+[![CI](https://github.com/markgzhou/docker-images/actions/workflows/ci-tool-box.yml/badge.svg)](https://github.com/markgzhou/docker-images/actions/workflows/ci-tool-box.yml)
+## About
 This docker-agent is built based from debian:buster-slim.
 You can use this tool-box to debug network and other issues in K8s.
 1. Docker Hub: https://hub.docker.com/repository/docker/markgzhou/azure-tool-box
